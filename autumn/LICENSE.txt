@@ -1,0 +1,73 @@
+============================================================
+ LICENSE
+============================================================
+Autumn - Creative Portfolio HTML Template
+Copyright (c) 2026 ThemeLegend
+============================================================
+
+1. LICENSE GRANT
+------------------------------------------------------------
+Upon purchase, you are granted a non-exclusive,
+non-transferable license to use this template for:
+   • One (1) personal or commercial project
+   • One (1) end product (website) per license
+
+2. YOU MAY:
+------------------------------------------------------------
+   ✔ Use this template for personal projects
+   ✔ Use this template for client projects (one per license)
+   ✔ Modify the code, styles, and content to suit your needs
+   ✔ Combine it with other tools and libraries
+
+3. YOU MAY NOT:
+------------------------------------------------------------
+   ✘ Resell, redistribute, or sublicense the template
+   ✘ Include the template in a "template pack" or bundle
+     for resale
+   ✘ Claim authorship of the original template
+   ✘ Use the template for illegal or harmful purposes
+   ✘ Share the template files with others who have not
+     purchased a license
+
+4. OWNERSHIP
+------------------------------------------------------------
+The original template code, design, and structure remain
+the intellectual property of ThemeLegend. You receive a
+license to use it, not ownership of it.
+
+5. THIRD-PARTY ASSETS
+------------------------------------------------------------
+Images, patterns, and videos used in the demo site are
+NOT included in this license and are subject to their own
+licenses. See CREDITS.txt for attribution.
+
+Libraries used (Google Fonts, Font Awesome, Unsplash)
+are governed by their respective open-source licenses.
+
+6. NO WARRANTY
+------------------------------------------------------------
+This template is provided "as is", without warranty of
+any kind, express or implied, including but not limited
+to the warranties of merchantability, fitness for a
+particular purpose, and non-infringement.
+
+In no event shall the author be liable for any claim,
+damages, or other liability arising from the use of
+this template.
+
+7. TERMINATION
+------------------------------------------------------------
+This license is effective until terminated. It will
+terminate automatically if you fail to comply with any
+term of this license. Upon termination, you must destroy
+all copies of the template.
+
+8. GOVERNING LAW
+------------------------------------------------------------
+This license shall be governed by and construed in
+accordance with the laws of the author's jurisdiction.
+
+============================================================
+For questions about licensing, contact the author via
+the item page on the marketplace.
+============================================================

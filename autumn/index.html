@@ -1,0 +1,551 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Autumn - A modern, dark-themed creative portfolio HTML template with masonry gallery, team slider, blog, FAQ, and contact form.">
+    <meta name="author" content="ThemeLegend">
+    <meta name="robots" content="index, follow">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="X-Content-Type-Options" content="nosniff">
+    <meta http-equiv="X-Frame-Options" content="SAMEORIGIN">
+    <meta http-equiv="Referrer-Policy" content="strict-origin-when-cross-origin">
+    <title>Autumn · Creative Portfolio HTML Template</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,500;14..32,600;14..32,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+    <!-- HERO -->
+    <section class="hero-slider" id="home">
+        <div class="slide" style="background-image: url('https://images.unsplash.com/photo-1476820865390-c52aeebb9891?w=1600&q=80');">
+            <div class="slide-content">
+                <h1>NATURE'S TOUCH</h1>
+                <div class="hero-divider"></div>
+                <p>Bring the outside in with a palette inspired by the autumn season.</p>
+            </div>
+        </div>
+        <div class="slide" style="background-image: url('https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=1600&q=80');">
+            <div class="slide-content">
+                <h1>CREATIVE WORK</h1>
+                <div class="hero-divider"></div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim.</p>
+            </div>
+        </div>
+        <div class="slide active" style="background-image: url('https://images.unsplash.com/photo-1507371341162-763b5e419408?w=1600&q=80');">
+            <div class="slide-content">
+                <h1>PLACE SOME COOL TEXT HERE</h1>
+                <div class="hero-divider"></div>
+                <p>Design that speaks for itself elegant, natural, and full of character.</p>
+            </div>
+        </div>
+        <div class="slide-dots" id="slideDots">
+            <button class="dot" data-index="0" aria-label="Slide 1"></button>
+            <button class="dot" data-index="1" aria-label="Slide 2"></button>
+            <button class="dot active" data-index="2" aria-label="Slide 3"></button>
+        </div>
+    </section>
+
+    <!-- NAVBAR -->
+    <nav class="navbar" id="navbar">
+        <div class="container" style="position: relative;">
+            <button class="nav-toggle" id="navToggle" aria-label="Toggle Menu">
+                <i class="fas fa-bars"></i>
+            </button>
+            <div class="nav-inner" id="navInner">
+                <a href="#home">Home</a>
+                <a href="#portfolio">Portfolio</a>
+                <a href="#about">About</a>
+                <a href="#features">Features</a>
+                <a href="#blog">Blog</a>
+                <a href="#faq">FAQ</a>
+                <a href="#contact">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- PORTFOLIO -->
+    <section class="container reveal" id="portfolio">
+        <div class="filter-bar">
+            <button class="filter-btn active" data-filter="all">All</button>
+            <button class="filter-btn" data-filter="autumn">Autumn</button>
+            <button class="filter-btn" data-filter="image">Image</button>
+            <button class="filter-btn" data-filter="slider">Slider</button>
+            <button class="filter-btn" data-filter="video">Video</button>
+        </div>
+        <div class="masonry" id="masonryGrid">
+            <div class="masonry-item m1"  data-category="autumn image"  data-img="https://images.unsplash.com/photo-1507371341162-763b5e419408?w=1400&q=80"><div class="overlay"><div class="item-title">Gallery Item</div><div class="item-sub">Click to open image slideshow.</div></div></div>
+            <div class="masonry-item m2"  data-category="autumn slider" data-img="https://images.unsplash.com/photo-1509316975850-ff9c5deb0cd9?w=1400&q=80"><div class="overlay"><div class="item-title">Gallery Item</div><div class="item-sub">Click to open image slideshow.</div></div></div>
+            <div class="masonry-item m3"  data-category="image video"   data-img="https://images.unsplash.com/photo-1476820865390-c52aeebb9891?w=1400&q=80"><div class="overlay"><div class="item-title">Gallery Item</div><div class="item-sub">Click to open image slideshow.</div></div></div>
+            <div class="masonry-item m4"  data-category="autumn image"  data-img="https://images.unsplash.com/photo-1445264718234-a623be589d37?w=1400&q=80"><div class="overlay"><div class="item-title">Gallery Item</div><div class="item-sub">Click to open image slideshow.</div></div></div>
+            <div class="masonry-item m5"  data-category="slider video"  data-img="https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?w=1400&q=80"><div class="overlay"><div class="item-title">Gallery Item</div><div class="item-sub">Click to open image slideshow.</div></div></div>
+            <div class="masonry-item m6"  data-category="autumn image"  data-img="https://images.unsplash.com/photo-1502082553048-f009c37129b9?w=1400&q=80"><div class="overlay"><div class="item-title">Gallery Item</div><div class="item-sub">Click to open image slideshow.</div></div></div>
+            <div class="masonry-item m7"  data-category="image slider"  data-img="https://images.unsplash.com/photo-1509316975850-ff9c5deb0cd9?w=1400&q=80"><div class="overlay"><div class="item-title">Gallery Item</div><div class="item-sub">Click to open image slideshow.</div></div></div>
+            <div class="masonry-item m8"  data-category="autumn video"  data-img="https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?w=1400&q=80"><div class="overlay"><div class="item-title">Gallery Item</div><div class="item-sub">Click to open image slideshow.</div></div></div>
+            <div class="masonry-item m9"  data-category="image"         data-img="https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=1400&q=80"><div class="overlay"><div class="item-title">Gallery Item</div><div class="item-sub">Click to open image slideshow.</div></div></div>
+            <div class="masonry-item m10" data-category="slider video"  data-img="https://images.unsplash.com/photo-1518495973542-4542c06a5843?w=1400&q=80"><div class="overlay"><div class="item-title">Gallery Item</div><div class="item-sub">Click to open image slideshow.</div></div></div>
+            <div class="masonry-item m11" data-category="autumn image"  data-img="https://images.unsplash.com/photo-1476820865390-c52aeebb9891?w=1400&q=80"><div class="overlay"><div class="item-title">Gallery Item</div><div class="item-sub">Click to open image slideshow.</div></div></div>
+            <div class="masonry-item m12" data-category="image video"   data-img="https://images.unsplash.com/photo-1508766917616-d22f3f1eea14?w=1400&q=80"><div class="overlay"><div class="item-title">Gallery Item</div><div class="item-sub">Click to open image slideshow.</div></div></div>
+            <div class="masonry-item m13" data-category="autumn slider" data-img="https://images.unsplash.com/photo-1507371341162-763b5e419408?w=1400&q=80"><div class="overlay"><div class="item-title">Gallery Item</div><div class="item-sub">Click to open image slideshow.</div></div></div>
+            <div class="masonry-item m14" data-category="image"         data-img="https://images.unsplash.com/photo-1502082553048-f009c37129b9?w=1400&q=80"><div class="overlay"><div class="item-title">Gallery Item</div><div class="item-sub">Click to open image slideshow.</div></div></div>
+            <div class="masonry-item m15" data-category="autumn slider" data-img="https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?w=1400&q=80"><div class="overlay"><div class="item-title">Gallery Item</div><div class="item-sub">Click to open image slideshow.</div></div></div>
+            <div class="masonry-item m16" data-category="image video"   data-img="https://images.unsplash.com/photo-1509316975850-ff9c5deb0cd9?w=1400&q=80"><div class="overlay"><div class="item-title">Gallery Item</div><div class="item-sub">Click to open image slideshow.</div></div></div>
+            <div class="masonry-item m17" data-category="autumn video"  data-img="https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?w=1400&q=80"><div class="overlay"><div class="item-title">Gallery Item</div><div class="item-sub">Click to open image slideshow.</div></div></div>
+            <div class="masonry-item m18" data-category="autumn image"  data-img="https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=1400&q=80"><div class="overlay"><div class="item-title">Gallery Item</div><div class="item-sub">Click to open image slideshow.</div></div></div>
+        </div>
+    </section>
+
+    <!-- LIGHTBOX -->
+    <div class="lightbox" id="lightbox">
+        <button class="lb-close" id="lightboxClose" aria-label="Close"><i class="fas fa-times"></i></button>
+        <div class="lightbox-stage">
+            <button class="lb-arrow prev" id="lightboxPrev" aria-label="Previous"><i class="fas fa-chevron-left"></i></button>
+            <img src="" alt="Lightbox" class="lightbox-img" id="lightboxImg">
+            <button class="lb-arrow next" id="lightboxNext" aria-label="Next"><i class="fas fa-chevron-right"></i></button>
+        </div>
+        <div class="lightbox-caption" id="lightboxCaption">Gallery Item</div>
+        <div class="lightbox-counter" id="lightboxCounter">1 / 1</div>
+        <div class="lightbox-dots" id="lightboxDots"></div>
+    </div>
+
+    <!-- TEAM -->
+    <section class="container reveal" id="about">
+        <h2 class="section-title">Our Team</h2>
+        <div class="team-section">
+            <div class="team-slider-wrapper">
+                <div class="team-slider" id="teamSlider">
+                    <div class="team-card">
+                        <div class="avatar">
+                            <img src="https://images.unsplash.com/photo-1589941013453-ec89f33b5e95?w=400&q=80" alt="Team Member">
+                            <div class="social-overlay">
+                                <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                                <a href="#" aria-label="Dribbble"><i class="fab fa-dribbble"></i></a>
+                                <a href="#" aria-label="Twitter"><i class="fab fa-x-twitter"></i></a>
+                                <a href="#" aria-label="Email"><i class="far fa-envelope"></i></a>
+                            </div>
+                        </div>
+                        <h4>Mr. Good Boy</h4>
+                        <div class="role">Founder</div>
+                        <div class="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ornare sem.</div>
+                    </div>
+                    <div class="team-card">
+                        <div class="avatar">
+                            <img src="https://images.unsplash.com/photo-1552053831-71594a27632d?w=400&q=80" alt="Team Member">
+                            <div class="social-overlay">
+                                <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                                <a href="#" aria-label="Dribbble"><i class="fab fa-dribbble"></i></a>
+                                <a href="#" aria-label="Twitter"><i class="fab fa-x-twitter"></i></a>
+                                <a href="#" aria-label="Email"><i class="far fa-envelope"></i></a>
+                            </div>
+                        </div>
+                        <h4>Mr. Peanutbutter</h4>
+                        <div class="role">Actor</div>
+                        <div class="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ornare sem sit.</div>
+                    </div>
+                    <div class="team-card">
+                        <div class="avatar">
+                            <img src="https://images.unsplash.com/photo-1543466835-00a7907e9de1?w=400&q=80" alt="Team Member">
+                            <div class="social-overlay">
+                                <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                                <a href="#" aria-label="Dribbble"><i class="fab fa-dribbble"></i></a>
+                                <a href="#" aria-label="Twitter"><i class="fab fa-x-twitter"></i></a>
+                                <a href="#" aria-label="Email"><i class="far fa-envelope"></i></a>
+                            </div>
+                        </div>
+                        <h4>Charlie</h4>
+                        <div class="role">Co-Founder</div>
+                        <div class="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ornare sem sit.</div>
+                    </div>
+                    <div class="team-card">
+                        <div class="avatar">
+                            <img src="https://images.unsplash.com/photo-1537151608828-ea2b11777ee8?w=400&q=80" alt="Team Member">
+                            <div class="social-overlay">
+                                <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                                <a href="#" aria-label="Dribbble"><i class="fab fa-dribbble"></i></a>
+                                <a href="#" aria-label="Twitter"><i class="fab fa-x-twitter"></i></a>
+                                <a href="#" aria-label="Email"><i class="far fa-envelope"></i></a>
+                            </div>
+                        </div>
+                        <h4>Buddy</h4>
+                        <div class="role">Designer</div>
+                        <div class="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ornare sem.</div>
+                    </div>
+                    <div class="team-card">
+                        <div class="avatar">
+                            <img src="https://images.unsplash.com/photo-1583512603805-3cc6b41f3edb?w=400&q=80" alt="Team Member">
+                            <div class="social-overlay">
+                                <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                                <a href="#" aria-label="Dribbble"><i class="fab fa-dribbble"></i></a>
+                                <a href="#" aria-label="Twitter"><i class="fab fa-x-twitter"></i></a>
+                                <a href="#" aria-label="Email"><i class="far fa-envelope"></i></a>
+                            </div>
+                        </div>
+                        <h4>Max</h4>
+                        <div class="role">Developer</div>
+                        <div class="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ornare sem sit.</div>
+                    </div>
+                </div>
+            </div>
+            <button class="team-arrow prev" id="teamPrev" aria-label="Previous"><i class="fas fa-chevron-left"></i></button>
+            <button class="team-arrow next" id="teamNext" aria-label="Next"><i class="fas fa-chevron-right"></i></button>
+        </div>
+    </section>
+
+    <!-- FULLWIDTH SLIDER -->
+    <section class="fullwidth-slider reveal">
+        <div class="fw-slide active" style="background-image: url('https://images.unsplash.com/photo-1507371341162-763b5e419408?w=1600&q=80');">
+            <div class="fw-slide-content">
+                <h2>Autumn Collection</h2>
+                <div class="fw-divider"></div>
+                <p>Every season tells a story. Explore the colors, the moods, and the quiet moments captured in this collection.</p>
+            </div>
+        </div>
+        <div class="fw-slide" style="background-image: url('https://images.unsplash.com/photo-1509316975850-ff9c5deb0cd9?w=1600&q=80');">
+            <div class="fw-slide-content">
+                <h2>Golden Hour</h2>
+                <div class="fw-divider"></div>
+                <p>Warm light, soft shadows, and the gentle rustle of leaves — the perfect setting for a timeless portfolio.</p>
+            </div>
+        </div>
+        <div class="fw-slide" style="background-image: url('https://images.unsplash.com/photo-1476820865390-c52aeebb9891?w=1600&q=80');">
+            <div class="fw-slide-content">
+                <h2>Misty Forest</h2>
+                <div class="fw-divider"></div>
+                <p>Step into the quiet woods where fog meets the trees and every corner holds a new discovery.</p>
+            </div>
+        </div>
+        <div class="fw-slide" style="background-image: url('https://images.unsplash.com/photo-1504198453319-5ce911bafcde?w=1600&q=80');">
+            <div class="fw-slide-content">
+                <h2>Fallen Leaves</h2>
+                <div class="fw-divider"></div>
+                <p>A reminder that change is beautiful. Let your work reflect the richness of every passing season.</p>
+            </div>
+        </div>
+        <div class="fw-dots" id="fwDots">
+            <button class="fw-dot active" data-index="0" aria-label="Slide 1"></button>
+            <button class="fw-dot" data-index="1" aria-label="Slide 2"></button>
+            <button class="fw-dot" data-index="2" aria-label="Slide 3"></button>
+            <button class="fw-dot" data-index="3" aria-label="Slide 4"></button>
+        </div>
+    </section>
+
+    <!-- FEATURES -->
+    <section class="features-section reveal" id="features">
+        <div class="container">
+            <h2 class="section-title">Our Features</h2>
+            <div class="features-grid">
+                <div class="feature-item">
+                    <div class="feat-icon"><i class="fas fa-leaf"></i></div>
+                    <h3>Stable</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                </div>
+                <div class="feature-item">
+                    <div class="feat-icon"><i class="fas fa-award"></i></div>
+                    <h3>Awards</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                </div>
+                <div class="feature-item">
+                    <div class="feat-icon"><i class="fas fa-balance-scale"></i></div>
+                    <h3>Balanced</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliq</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PARALLAX -->
+    <section class="parallax-section reveal">
+        <div class="parallax-content">
+            <h2>TITLE</h2>
+            <div class="px-divider"></div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+        </div>
+    </section>
+
+    <!-- BLOG -->
+    <section class="blog-section reveal" id="blog">
+        <div class="container">
+            <h2 class="section-title">Our Blog</h2>
+            <p class="section-subtitle">Latest News & Stories</p>
+
+            <div class="blog-grid">
+                <article class="blog-card">
+                    <div class="blog-img" style="background-image: url('https://images.unsplash.com/photo-1507371341162-763b5e419408?w=900&q=80');">
+                        <span class="blog-category">Autumn</span>
+                    </div>
+                    <div class="blog-body">
+                        <div class="blog-meta">
+                            <i class="far fa-calendar-alt"></i>
+                            <span>Wed, 29 Jan 2020</span>
+                        </div>
+                        <h3>Blog post with featured image 1</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                        <button class="full-post" data-blog="1">Read More <i class="fas fa-arrow-right"></i></button>
+                    </div>
+                </article>
+
+                <article class="blog-card">
+                    <div class="blog-img" style="background-image: url('https://images.unsplash.com/photo-1445264718234-a623be589d37?w=900&q=80');">
+                        <span class="blog-category">Nature</span>
+                    </div>
+                    <div class="blog-body">
+                        <div class="blog-meta">
+                            <i class="far fa-calendar-alt"></i>
+                            <span>Wed, 29 Jan 2020</span>
+                        </div>
+                        <h3>Blog post with image slider 2</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                        <button class="full-post" data-blog="2">Read More <i class="fas fa-arrow-right"></i></button>
+                    </div>
+                </article>
+
+                <article class="blog-card">
+                    <div class="blog-body" style="padding-top: 36px;">
+                        <div class="blog-meta">
+                            <i class="far fa-calendar-alt"></i>
+                            <span>Wed, 29 Jan 2020</span>
+                        </div>
+                        <h3>Blog post only text 3</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                        <button class="full-post" data-blog="3">Read More <i class="fas fa-arrow-right"></i></button>
+                    </div>
+                </article>
+
+                <article class="blog-card">
+                    <div class="blog-body" style="padding-top: 36px;">
+                        <div class="blog-meta">
+                            <i class="far fa-calendar-alt"></i>
+                            <span>Wed, 29 Jan 2020</span>
+                        </div>
+                        <h3>Blog post only text 2</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                        <button class="full-post" data-blog="4">Read More <i class="fas fa-arrow-right"></i></button>
+                    </div>
+                </article>
+
+                <article class="blog-card">
+                    <div class="blog-img" style="background-image: url('https://images.unsplash.com/photo-1476820865390-c52aeebb9891?w=900&q=80');">
+                        <span class="blog-category">Gallery</span>
+                    </div>
+                    <div class="blog-body">
+                        <div class="blog-meta">
+                            <i class="far fa-calendar-alt"></i>
+                            <span>Wed, 29 Jan 2020</span>
+                        </div>
+                        <h3>Blog post with image slider 4</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                        <button class="full-post" data-blog="5">Read More <i class="fas fa-arrow-right"></i></button>
+                    </div>
+                </article>
+
+                <article class="blog-card">
+                    <div class="blog-img" style="background-image: url('https://images.unsplash.com/photo-1518495973542-4542c06a5843?w=900&q=80');">
+                        <span class="blog-category">Video</span>
+                    </div>
+                    <div class="blog-body">
+                        <div class="blog-meta">
+                            <i class="far fa-calendar-alt"></i>
+                            <span>Wed, 29 Jan 2020</span>
+                        </div>
+                        <h3>Blog post with video 2</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                        <button class="full-post" data-blog="6">Read More <i class="fas fa-arrow-right"></i></button>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="faq-section reveal" id="faq">
+        <div class="container">
+            <h2 class="section-title">FAQ</h2>
+            <p class="section-subtitle">Frequently Asked Questions</p>
+
+            <div class="faq-grid">
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h4>What is included in the autumn theme?</h4>
+                        <span class="faq-icon"><i class="fas fa-chevron-down"></i></span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h4>Can I customize the color palette?</h4>
+                        <span class="faq-icon"><i class="fas fa-chevron-down"></i></span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h4>Is the theme fully responsive?</h4>
+                        <span class="faq-icon"><i class="fas fa-chevron-down"></i></span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h4>Do you offer support after purchase?</h4>
+                        <span class="faq-icon"><i class="fas fa-chevron-down"></i></span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- TESTIMONIALS -->
+    <section class="testimonials-section reveal">
+        <div class="container">
+            <h2 class="section-title">Testimonials</h2>
+            <p class="section-subtitle">What Our Clients Say</p>
+
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="testimonial-stars">
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                    </div>
+                    <p class="testimonial-text">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation."</p>
+                    <div class="testimonial-author">
+                        <img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=200&q=80" alt="Client">
+                        <div class="author-info">
+                            <h5>Jane Doe</h5>
+                            <span>Art Director</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="testimonial-stars">
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                    </div>
+                    <p class="testimonial-text">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation."</p>
+                    <div class="testimonial-author">
+                        <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=200&q=80" alt="Client">
+                        <div class="author-info">
+                            <h5>John Smith</h5>
+                            <span>Creative Director</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="testimonial-stars">
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <p class="testimonial-text">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation."</p>
+                    <div class="testimonial-author">
+                        <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=200&q=80" alt="Client">
+                        <div class="author-info">
+                            <h5>Emily Clark</h5>
+                            <span>Product Manager</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="contact-section reveal" id="contact">
+        <div class="container">
+            <h2 class="section-title">Contact Us</h2>
+            <p class="section-subtitle">Get in Touch With Us</p>
+
+            <div class="contact-wrapper">
+                <div class="contact-form">
+                    <h3>Send Us a Message</h3>
+                    <p class="form-sub">We'd love to hear from you. Fill in the form below.</p>
+                    <form id="contactForm" novalidate>
+                        <input type="text" name="name" placeholder="Your Name" required maxlength="80">
+                        <input type="email" name="email" placeholder="Your Email" required maxlength="120">
+                        <input type="text" name="subject" placeholder="Subject" maxlength="150">
+                        <textarea name="message" placeholder="Your Message" maxlength="2000"></textarea>
+                        <label class="checkbox-label">
+                            <input type="checkbox" required>
+                            <span>Yes I have read the <a href="privacy-policy.html" target="_blank" style="color:#d4b89b;">privacy policy</a> and agree to the terms.</span>
+                        </label>
+                        <button type="submit" class="btn-purple">Send Message</button>
+                    </form>
+                </div>
+
+                <div class="map-wrapper">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2662.470849882824!2d11.57238431565514!3d48.13715497922238!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x479e75f9a7b9b1e5%3A0x4b0f0f0f0f0f0f0f!2sM%C3%BCnchen%2C%20Germany!5e0!3m2!1sen!2s!4v1600000000000!5m2!1sen!2s" allowfullscreen="" loading="lazy" title="Map"></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div>
+                    <h4>Theme: Autumn</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <p style="margin-top: 12px;">By: ThemeLegend &nbsp;|&nbsp; Phone: 1234124 &nbsp;|&nbsp; Email: asdf@asdf.com</p>
+                    <div class="social-icons">
+                        <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" aria-label="Pinterest"><i class="fab fa-pinterest-p"></i></a>
+                        <a href="#" aria-label="Twitter"><i class="fab fa-x-twitter"></i></a>
+                    </div>
+                </div>
+
+                <div>
+                    <h4>Follow Us</h4>
+                    <p>English</p>
+                    <p style="margin-top: 8px; color: #6b5f52; font-size: 0.82rem;">Available worldwide</p>
+                </div>
+
+                <div>
+                    <h4>Quick Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#blog">Blog</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <li><a href="privacy-policy.html">Privacy Policy</a></li>
+                        <li><a href="terms-of-use.html">Terms of Use</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <span>© 2026 Autumn Theme. All rights reserved.</span>
+                <span><a href="privacy-policy.html">Privacy Policy</a> &nbsp;·&nbsp; <a href="terms-of-use.html">Terms of Use</a></span>
+            </div>
+        </div>
+    </footer>
+
+    <!-- BLOG MODAL -->
+    <div class="blog-modal" id="blogModal">
+        <div class="blog-modal-content">
+            <button class="blog-modal-close" id="blogModalClose" aria-label="Close"><i class="fas fa-times"></i></button>
+            <div class="blog-modal-img" id="blogModalImg"></div>
+            <div class="blog-modal-body">
+                <div class="blog-modal-meta" id="blogModalMeta"></div>
+                <h2 id="blogModalTitle"></h2>
+                <div id="blogModalContent"></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="assets/js/script.js"></script>
+</body>
+</html>

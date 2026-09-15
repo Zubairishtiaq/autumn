@@ -1,0 +1,146 @@
+============================================================
+ CREDITS & ATTRIBUTIONS
+============================================================
+Autumn - Creative Portfolio HTML Template
+Version: 1.0.0
+Author:  ThemeLegend
+
+All third-party assets used in the DEMO site are used for
+demonstration purposes only. They are NOT included in the
+downloadable theme package. If you wish to use any of the
+assets shown on the demo, you must obtain your own license
+from the respective authors.
+============================================================
+
+
+------------------------------------------------------------
+ IMAGES
+------------------------------------------------------------
+All images are sourced from Unsplash (https://unsplash.com)
+and Pexels (https://www.pexels.com), which provide free,
+royalty-free images under their respective licenses.
+
+Photos (Unsplash):
+   • Photo by Jonas Jacobsson on Unsplash
+   • Photo by Nathan Dumlao on Unsplash
+   • Photo by Mike Kenneally on Unsplash
+   • Photo by Jessica Lewis on Unsplash
+   • Photo by Yanapi Senaud on Unsplash
+   • Photo by Jonathan Borba on Unsplash
+   • Photo by Eiliv-Sonas Aceron on Unsplash
+   • Photo by Tim Mossholder on Unsplash
+   • Photo by Fanning Tseng on Unsplash
+   • Photo by Sofiya Levchenko on Unsplash
+   • Photo by Eiliv-Sonas Aceron on Unsplash
+   • Photo by Calum Lewis on Unsplash
+   • Photo by Joseph Gonzalez on Unsplash
+   • Photo by Dominic Dreier on Unsplash
+   • Photo by Patrick Schneider on Unsplash
+   • Photo by Roman Kraft on Unsplash
+
+Photos (Pexels):
+   • Foto von Kirsten Bühne von Pexels
+
+License References:
+   • Unsplash License: https://unsplash.com/license
+   • Pexels License:   https://www.pexels.com/license/
+
+IMPORTANT: These images are NOT included in the theme
+package. They are only used for the demo/preview. After
+purchase, you must replace them with your own images or
+obtain a license for the ones you want to keep.
+
+
+------------------------------------------------------------
+ PATTERNS
+------------------------------------------------------------
+   • Patterns by https://www.transparenttextures.com/
+   • Patterns by https://www.toptal.com/designers/subtlepatterns/
+
+Both websites provide free-to-use patterns. Please check
+their respective licenses before redistribution.
+
+
+------------------------------------------------------------
+ VIDEOS
+------------------------------------------------------------
+   • Video von cottonbro von Pexels
+   • Video von Kelly von Pexels
+
+License Reference:
+   • Pexels License: https://www.pexels.com/license/
+
+
+------------------------------------------------------------
+ FONTS
+------------------------------------------------------------
+   • Inter — by Rasmus Andersson
+     Source:  https://fonts.google.com/specimen/Inter
+     License: SIL Open Font License 1.1
+     License: https://scripts.sil.org/OFL
+
+
+------------------------------------------------------------
+ ICONS
+------------------------------------------------------------
+   • Font Awesome 6 (Free)
+     Source:  https://fontawesome.com/
+     License: CC BY 4.0 / SIL OFL 1.1 / MIT
+     License: https://fontawesome.com/license/free
+
+
+------------------------------------------------------------
+ LIBRARIES & SERVICES
+------------------------------------------------------------
+   • Google Fonts       — https://fonts.google.com/
+   • Font Awesome       — https://fontawesome.com/
+   • Unsplash           — https://unsplash.com/
+   • Pexels             — https://www.pexels.com/
+   • Google Maps Embed  — https://www.google.com/maps
+
+
+------------------------------------------------------------
+ LOREM IPSUM TEXT
+------------------------------------------------------------
+The Latin placeholder text "Lorem ipsum dolor sit amet..."
+used throughout the demo is standard placeholder text and
+is free to use without attribution.
+
+
+------------------------------------------------------------
+ NOTE TO BUYERS
+------------------------------------------------------------
+All third-party assets listed above are the property of
+their respective owners. This template does not claim any
+ownership over them. The author of this template is not
+responsible for any misuse of these assets by the buyer.
+
+Before using this template for a live project, please:
+   1. Replace all demo images with your own images.
+   2. Replace all demo text (Lorem ipsum) with your own.
+   3. Review the licenses of any assets you intend to keep.
+   4. Comply with all applicable copyright laws in your
+      jurisdiction.
+
+
+------------------------------------------------------------
+ TAKEDOWN REQUESTS
+------------------------------------------------------------
+If you are the owner of any asset listed above and would
+like it removed from the demo, please contact the author
+via the item page on the marketplace where you purchased
+or downloaded this template. We will remove it immediately.
+
+
+------------------------------------------------------------
+ COPYRIGHT NOTICE
+------------------------------------------------------------
+Template code, design, and structure:
+   © 2026 ThemeLegend. All rights reserved.
+
+Demo images, videos, and patterns:
+   © Respective authors. See above.
+
+============================================================
+ Thank you for using Autumn - Creative Portfolio Template!
+============================================================
